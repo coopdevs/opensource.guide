@@ -1,12 +1,12 @@
 ---
-locale: en-US
-title: Building Welcoming Communities
-description: Building a community that encourages people to use, contribute to, and evangelize your project.
-class: building
+locale: ca-ES
+title: Construint comunitat acollidores
+description: Construint una comunitat que encoratja gent a utilitzar, contribuir i promoure el teu projecte.
+class: construint
 toc:
-  setting-your-project-up-for-success: "Setting your project up for success"
-  growing-your-community: "Growing your community"
-  resolving-conflicts: "Resolving conflicts"
+  setting-your-project-up-for-success: "Preparar el teu project per a l'èxit"
+  growing-your-community: "Fer créixer la teva comunitat"
+  resolving-conflicts: "Resoldre conflictes"
 order: 4
 image: /assets/images/cards/building.png
 related:
@@ -14,11 +14,11 @@ related:
   - coc
 ---
 
-## Setting your project up for success
+## Preparar el teu projecte per a l'èxit
 
-You've launched your project, you're spreading the word, and people are checking it out. Awesome! Now, how do you get them to stick around?
+Ja has llançat el projecte, l'estàs difonent i la gent hi està donant un cop d'ull. Genial! Però com t'ho fas perquè la gent s'hi quedi?
 
-A welcoming community is an investment into your project's future and reputation. If your project is just starting to see its first contributions, start by giving early contributors a positive experience, and make it easy for them to keep coming back.
+Una comunitat acollidora és una inversió per al futur i la reputació del teu projecte. Si el teu projecte està tot just veient les seves primeres contribucions, comença per donar una experiència positiva als primers contribuïdors i facilita que continuint venint.
 
 ### Make people feel welcome
 
