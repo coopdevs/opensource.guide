@@ -60,7 +60,7 @@ Encouraging other contributors is an investment in yourself, too. When you empow
   <p markdown="1" class="pquote-credit">
 — @janl, ["Sustainable Open Source"](http://writing.jan.io/2015/11/20/sustainable-open-source.html)
   </p>
-</aside>
+</aside>.     
 
 When you start a new project, it may feel natural to keep your work private. But open source projects thrive when you document your process in public.
 
