@@ -1,12 +1,12 @@
 ---
-locale: en-US
-title: Building Welcoming Communities
-description: Building a community that encourages people to use, contribute to, and evangelize your project.
-class: building
+locale: ca-ES
+title: Construint comunitat acollidores
+description: Construint una comunitat que encoratja gent a utilitzar, contribuir i promoure el teu projecte.
+class: construint
 toc:
-  setting-your-project-up-for-success: "Setting your project up for success"
-  growing-your-community: "Growing your community"
-  resolving-conflicts: "Resolving conflicts"
+  setting-your-project-up-for-success: "Preparar el teu project per a l'èxit"
+  growing-your-community: "Fer créixer la teva comunitat"
+  resolving-conflicts: "Resoldre conflictes"
 order: 4
 image: /assets/images/cards/building.png
 related:
@@ -14,43 +14,43 @@ related:
   - coc
 ---
 
-## Setting your project up for success
+## Preparar el teu projecte per a l'èxit
 
-You've launched your project, you're spreading the word, and people are checking it out. Awesome! Now, how do you get them to stick around?
+Ja has llançat el projecte, l'estàs difonent i la gent hi està donant un cop d'ull. Genial! Però com t'ho fas perquè la gent s'hi quedi?
 
-A welcoming community is an investment into your project's future and reputation. If your project is just starting to see its first contributions, start by giving early contributors a positive experience, and make it easy for them to keep coming back.
+Una comunitat acollidora és una inversió per al futur i la reputació del teu projecte. Si el teu projecte està tot just veient les seves primeres contribucions, comença per donar una experiència positiva als primers contribuïdors i facilita que continuint venint.
 
-### Make people feel welcome
+### Fes que la gent se senti benvinguda
 
-One way to think about your project's community is through what @MikeMcQuaid calls the [contributor funnel](https://speakerdeck.com/mikemcquaid/the-open-source-contributor-funnel):
+Una manera de pensar sobre la comunitat del teu projecte es a través del que @MikeMcQuaid anomena [l'embut de contribució](https://speakerdeck.com/mikemcquaid/the-open-source-contributor-funnel):
 
-![Contributor funnel](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
+![Embut de contribució](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
 
-As you build your community, consider how someone at the top of the funnel (a potential user) might theoretically make their way to the bottom (an active maintainer). Your goal is to reduce friction at each stage of the contributor experience. When people have easy wins, they will feel incentivized to do more.
+A mesura que construeixes la teva comunitat, considera com algú que està al capdamunt de l'embut (un usuari potencial) pot obrir-se camí fins al fons (un matenidor actiu). El teu objectiu és reduir la fricció a cada etapa de l'experiència del contribuidor. Quan les persones tenen petites victòries, se senten incentivades per fer més.
 
-Start with your documentation:
+Comença amb la teva documentació:
 
-* **Make it easy for someone to use your project.** [A friendly README](../starting-a-project/#writing-a-readme) and clear code examples will make it easier for anyone who lands on your project to get started.
-* **Clearly explain how to contribute**, using [your CONTRIBUTING file](../starting-a-project/#writing-your-contributing-guidelines) and keeping your issues up-to-date.
+* **Facilita que la gent utilitzi el teu projecte** [Un README amigable](../starting-a-project/#writing-a-readme) i examples de codi clars facilitaran que algú que topa amb el teu projecte començi a usar-lo.
+* **Explica de manera clara com contribuir**, utilitzant [el teu arxiu CONTRIBUTING](../starting-a-project/#writing-your-contributing-guidelines) i mantenint els "issues" al dia.
 
-[GitHub's 2017 Open Source Survey](http://opensourcesurvey.org/2017/) showed incomplete or confusing documentation is the biggest problem for open source users. Good documentation invites people to interact with your project. Eventually, someone will open an issue or pull request. Use these interactions as opportunities to move them down the funnel.
+[L'enquesta sobre codi obert de 2017 de Github](http://opensourcesurvey.org/2017/) mostra que documentació incompleta o confusa és el principal problema per usuaris de codi obert.
 
-* **When someone new lands on your project, thank them for their interest!** It only takes one negative experience to make someone not want to come back.
-* **Be responsive.** If you don't respond to their issue for a month, chances are, they've already forgotten about your project.
-* **Be open-minded about the types of contributions you'll accept.** Many contributors start with a bug report or small fix. There are [many ways to contribute](../how-to-contribute/#what-it-means-to-contribute) to a project. Let people help how they want to help.
-* **If there's a contribution you disagree with,** thank them for their idea and [explain why](../best-practices/#learning-to-say-no) it doesn't fit into the scope of the project, linking to relevant documentation if you have it.
+* **Quan algú aterra al teu projecte, agraeix-li el seu interès!** És suficient una sola experiència negativa per a que algú no vulgui tornar.
+* **Sigues receptiu** Si no respons als problemes dels usuaris en un més, de ben segur que ja s'hauran oblidat del teu projecte.
+* **Sigues obert en el tipus de contribucions que acceptes** Molts contribuïdors comencen informant un error o amb una petita correció. Hi ha [moltes maneres de contribuir](../how-to-contribute/#what-it-means-to-contribute) a un projecte. Deixa a la gent ajudar de la manera que vulguin.
+* **Si no estàs d'acord amb alguna contribució,** agraeix-los la idea i [explica perquè](../best-practices/#learning-to-say-no) no encaixa a l'àmbit del projecte, enllaçant documentació rellevant si existeix.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars3.githubusercontent.com/u/579?v=3&s=400" class="pquote-avatar" alt="avatar">
-  Contributing to open source is easier for some than others. There's a lot of fear of being yelled at for not doing something right or just not fitting in. (...) By giving contributors a place to contribute with very low technical proficiency (documentation, web content markdown, etc) you can greatly reduce those concerns.
+  Contribuir al codi obert és més fàcil per uns que per altres. Hi ha molta por a que et responguin malament per no fer les coses bé o senzillament no encaixar.(...) Oferint als contribuidors un espai on contribuir amb un molt baix nivell de coneixement tècnic (documentació, contingut web en markdown, etc) podem reduir considerablement aquestes preocupacions.
   <p markdown="1" class="pquote-credit">
 — @mikeal, ["Growing a contributor base in modern open source"](https://opensource.com/life/16/5/growing-contributor-base-modern-open-source)
   </p>
 </aside>
 
-The majority of open source contributors are "casual contributors": people who contribute to a project only occasionally. A casual contributor may not have time to get fully up to speed with your project, so your job is to make it easy for them to contribute.
+La majoria de contribuidors de codi obert són "contribuidors informals": gent que contribueix a un projecte només de manera ocasional. Un contribuidor informal pot no tenir temps de contribuir plenament al teu projecte, per tant la teva feina és facilitar-los la contribució.
 
-Encouraging other contributors is an investment in yourself, too. When you empower your biggest fans to run with the work they're excited about, there's less pressure to do everything yourself.
+Encoratjar la contribució d'altres també és invertir en tu mateix. Quan empoderes els teus majors seguidors a treballar en la feina que els motiva, tens menys pressió per fer-ho tot tu.
 
 ### Document everything
 
