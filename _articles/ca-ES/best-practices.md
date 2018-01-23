@@ -67,7 +67,7 @@ Si el manteniment del vostre projecte és a temps parcial o purament voluntari, 
 
 Heus aquí algunes regles que val la pena anotar:
 
-* Com es revisa i s'accepta una contribució (_Necessiten proves? Una plantilla d'incidència?_)
+* Com es revisa i s'accepta una contribució (_Necessiten "tests"? Una plantilla d'incidència?_)
 * Tipus de contribucions que acceptareu (_Voleu només ajuda amb una determinada part del vostre codi?_)
 * Quan és adequat el seguiment (_per exemple, "Podeu esperar una resposta d'un mantenidor en un termini de 7 dies. Si no heu sentit res aleshores, no dubteu a fer-lo servir"._)
 * Quant de temps es dedica al projecte (_per exemple, "Només dediquem unes 5 hores setmanals a aquest projecte"_)
@@ -94,7 +94,7 @@ Dir que no es pot aplicar a moltes situacions que us trobareu com a mantenidor: 
 
 ### Mantingueu la conversa amistosa
 
-Un dels llocs més importants on practicareu dient que no és en el vostre problema i a la vostra cua de Sol·licituds d'Extracció (SE). Com a mantenidors del projecte, inevitablement rebreu suggeriments que no voldreu acceptar.
+Un dels llocs més importants on practicareu dient que no, és en el vostre "issue" i a la vostra cua de "Pull Requests" (PR). Com a mantenidors del projecte, inevitablement rebreu suggeriments que no voldreu acceptar.
 
 És possible que la contribució canvii l'àmbit del vostre projecte o no coincideixi amb la vostra visió. Pot ser lque a idea sigui bona, però que la implementació sigui deficient.
 
@@ -110,7 +110,7 @@ Si rebeu una contribució que no voleu acceptar, la vostra primera reacció podr
   </p>
 </aside>
 
-No deixeu una contribució no desitjada oberta pel fet de sentir-vos culpables o voler ser amables. Amb el pas del temps, els vostres problemes i SE sense resposta faran que treballar en el vostre projecte resulti molt més estressant i intimidant.
+No deixeu una contribució no desitjada oberta pel fet de sentir-vos culpables o voler ser amables. Amb el pas del temps, els vostres problemes i PR sense resposta faran que treballar en el vostre projecte resulti molt més estressant i intimidant.
 
 És millor tancar immediatament aquelles contribucions que sabeu per endavant que no voleu acceptar. Si el vostre projecte ja pateix un gran retard, @steveklabnik té suggeriments sobre [com classificar problemes de manera eficient] (http://words.steveklabnik.com/how-to-be-an-open-source-gardener).
 
@@ -123,7 +123,7 @@ Si no voleu acceptar una contribució:
 * **Enllaceu cap la documentació rellevant**, si en disposeu. Si observeu sol·licituds repetides de coses que no voleu acceptar, afegiu-les a la vostra documentació per evitar de repetir-les.
 * **Tanqueu la petició**
 
-No haurieu de necessitar més de 1-2 frases per respondre. Per exemple, quan un usuari de [Celery] (https://github.com/cellery/celery/) va informar d'un error relacionat amb Windows, en @berkerpeksag [va respondre amb] (https://github.com/celery/celery/issues/3383):
+No haurieu de necessitar més de 1-2 frases per respondre. Per exemple, quan un usuari de [Celery] (https://github.com/cellery/celery/) va informar d'un "bug" relacionat amb Windows, en @berkerpeksag [va respondre amb] (https://github.com/celery/celery/issues/3383):
 
 ![Captura de pantalla de Celery](/assets/images/best-practices/celery.png)
 
@@ -141,18 +141,18 @@ Per reduir el volum de contribucions no desitjades, expliqueu el procés del vos
 
 Si rebeu massa contribucions de baixa qualitat, demaneu als col·laboradors que facin una mica de feina per endavant, per exemple:
 
-* Empleneu un problema o una plantilla de SE/llista de verificació
-* Obriu un problema abans d'enviar una SE
+* Empleneu un "issue" o una plantilla/llista de verificació de PR
+* Obriu un "issue" abans d'enviar una PR
 
-Si no segueixen les vostres regles, tanqueu el problema immediatament i adreceu-los cap a la documentació.
+Si no segueixen les vostres regles, tanqueu l'"issue" immediatament i adreceu-los cap a la documentació.
 
-Tot i que aquest enfocament pot semblar desconsiderat al principi, ser proactiu és realment bo per a ambdues parts. Redueix la possibilitat que algú introdueixi moltes hores de treball malgastades en una SE que no penseu acceptar. I fa que la vostra càrrega de treball sigui més fàcil de gestionar.
+Tot i que aquest enfocament pot semblar desconsiderat al principi, ser proactiu és realment bo per a ambdues parts. Redueix la possibilitat que algú introdueixi moltes hores de treball malgastades en una PR que no penseu acceptar. I fa que la vostra càrrega de treball sigui més fàcil de gestionar.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars0.githubusercontent.com/u/125011" class="pquote-avatar" alt="avatar">
   Idealment, expliqueu-los en un fitxer CONTRIBUTING.md com poden obtenir una millor indicació en el futur sobre el que seria o no acceptat abans de començar la feina.
   <p markdown="1" class="pquote-credit">
-— @mikemcquaid, ["Tancant Sol·licituds d'Extracció amablement"](https://github.com/blog/2124-kindly-closing-pull-requests)
+— @mikemcquaid, ["Tancant "Pull Requests" amablement"](https://github.com/blog/2124-kindly-closing-pull-requests)
   </p>
 </aside>
 
@@ -162,7 +162,7 @@ De vegades, quan dieu que no, el vostre potencial col·laborador podria molestar
 
 Sovint pot passar que algú de la vostra comunitat enviï regularment contribucions que no compleixin amb els estàndards del vostre projecte. Pot ser frustrant per ambdues parts rebutjar-se repetidament.
 
-Si veieu que algú està entusiasmat amb el vostre projecte, però necessita polir alguns aspectes, tingueu paciència. Expliqueu-los clarament en cada situació per què les seves contribucions no compleixen amb les expectatives del projecte. Intenteu fer-los referència a una tasca més fàcil o menys ambigua, com ara un problema marcat com a _"primer error,"_ per tal d'iniciar-los en la feina. Si teniu temps, considereu orientar-lo a través de la seva primera contribució, o trobeu a algú més a la vostra comunitat que estigui disposat a fer-ho.
+Si veieu que algú està entusiasmat amb el vostre projecte, però necessita polir alguns aspectes, tingueu paciència. Expliqueu-los clarament en cada situació per què les seves contribucions no compleixen amb les expectatives del projecte. Intenteu fer-los referència a una tasca més fàcil o menys ambigua, com ara un "issue" marcat com a _primer "bug",_ per tal d'iniciar-los en la feina. Si teniu temps, considereu orientar-lo a través de la seva primera contribució, o trobeu a algú més a la vostra comunitat que estigui disposat a fer-ho.
 
 ## Aprofiteu la vostra comunitat
 
@@ -186,7 +186,7 @@ Encoratjar els demés a [compartir la propietat del projecte](../building-commun
 
 Si necessiteu allunyar-vos del vostre projecte, ja sigui temporal o permanentment, no us faci vergonya demanar-li a algú que se'n faci càrrec.
 
-Si altres persones estan entusiasmades amb la seva orientació, doneu-los accés per poder cometre (*commit*) o bé doneu-li el control a una altra persona. Si algú va fer un bifurcació (*fork*) del vostre projecte i el manté activament en un altre lloc, considereu enllaçar amb la bifurcació del vostre projecte original. És genial que tantes persones vulguin fer perdurar el vostre projecte!
+Si altres persones estan entusiasmades amb la seva orientació, doneu-los accés per poder fer "commit" o bé doneu-li el control a una altra persona. Si algú va fer un "fork" del vostre projecte i el manté activament en un altre lloc, considereu enllaçar amb la bifurcació del vostre projecte original. És genial que tantes persones vulguin fer perdurar el vostre projecte!
 
 En @progrium [va descobrir això](http://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) tot documentant la visió del seu projecte, [Dokku](https://github.com/dokku/dokku), ajudant a viure aquests objectius fins i tot després d'allunyar-se del projecte:
 
@@ -202,11 +202,11 @@ Bifurcar un projecte no ha de ser una cosa dolenta. Ser capaç de copiar i modif
   <img src="https://avatars1.githubusercontent.com/u/481677?v=3&s=400" class="pquote-avatar" alt="avatar">
   Em refereixo al cas d'ús del 80%. Si ets un dels unicornis, si us plau bifurca el meu treball. No m'ofenderé! Els meus projectes públics gairebé sempre estan destinats a resoldre els problemes més comuns; Tracto de que sigui fàcil aprofundir, ja sigui bifurcant el meu treball o estenent-lo.
   <p markdown="1" class="pquote-credit">
-— @geerlingguy, ["Per què tanco SEs"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
+— @geerlingguy, ["Per què tanco PRs"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
   </p>
 </aside>
 
-El mateix s'aplica a un usuari que realment vol una solució, que simplement no és a la vostra disposició de construir. Oferir APIs i garfis (*hooks*) de personalització pot ajudar els altres a satisfer les seves necessitats, sense haver de modificar la font directament. En @orta [es va trobar que](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) encoratjant complements (*plugins*) per a CocoaPods va provocar "algunes de les idees més interessants":
+El mateix s'aplica a un usuari que realment vol una solució, que simplement no és a la vostra disposició de construir. Oferir APIs i "hooks" de personalització pot ajudar els altres a satisfer les seves necessitats, sense haver de modificar la font directament. En @orta [es va trobar que](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) encoratjant "plugins" per a CocoaPods va provocar "algunes de les idees més interessants":
 
 > És gairebé inevitable que una vegada un projecte esdevé gran, els mantenidors han de ser molt més conservadors en el moment d'introduir codi nou. Et tornes més bo dient "no", però molta gent té necessitats legítimes. Per tant, enlloc d'això, acabeu convertint la vostra eina en una plataforma.
 
@@ -214,19 +214,19 @@ El mateix s'aplica a un usuari que realment vol una solució, que simplement no 
 
 De la mateixa manera que hi ha tasques en que altres persones poden ajudar-vos, també hi ha tasques que cap humà hauria de fer mai. Els robots són els vostres amics. Utilitzeu-los per facilitar-vos la vida com a mantenidors.
 
-### Demaneu proves (*tests*) i altres controls per millorar la qualitat del vostre codi
+### Demaneu "tests" i altres controls per millorar la qualitat del vostre codi
 
-Una de les maneres més importants per tal d'automatitzar el vostre projecte és afegir proves.
+Una de les maneres més importants per tal d'automatitzar el vostre projecte és afegir "tests".
 
-Les proves ajuden els col·laboradors a confiar en que no trencaran res. També fan més fàcil revisar i acceptar contribucions ràpidament. Com més atents sigueu, més compromesa pot arribar a estar la vostra comunitat.
+Els "tests" ajuden els col·laboradors a confiar en que no trencaran res. També fan més fàcil revisar i acceptar contribucions ràpidament. Com més atents sigueu, més compromesa pot arribar a estar la vostra comunitat.
 
-Configureu les proves automàtiques que s'executaran a totes les contribucions entrants, i assegureu-vos que les vostres proves es puguin executar localment pels col·laboradors. Demaneu que totes les contribucions de codi passin les proves abans de poder enviar-les. Ajudareu a establir un nivell mínim de qualitat per a tots els enviaments. Utilitzar [comprovacions d'estat requerides](https://help.github.com/articles/about-required-status-checks/) a GitHub pot ajudar a evitar fusions (*merge*) canvis sense passar les proves.
+Configureu els "tests" automàtiques que s'executaran a totes les contribucions entrants, i assegureu-vos que els vostres "tests" es puguin executar localment pels col·laboradors. Demaneu que totes les contribucions de codi passin els "tests" abans de poder enviar-les. Ajudareu a establir un nivell mínim de qualitat per a tots els enviaments. Utilitzar [comprovacions d'estat requerides](https://help.github.com/articles/about-required-status-checks/) a GitHub pot ajudar a evitar un "merge" sense passar els "tests".
 
-Si afegiu proves, assegureu-vos d'explicar com funcionen al vostre fitxer CONTRIBUTING.
+Si afegiu "tests", assegureu-vos d'explicar com funcionen al vostre fitxer CONTRIBUTING.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars3.githubusercontent.com/u/812892?v=3&s=460" class="pquote-avatar" alt="avatar">
-  Crec que les proves són necessàries per a tot el codi en que les persones treballen. Si el codi era total i perfectament correcte, no necessitaríem canvis; només escrivim codi quan hi ha alguna cosa incorrecta, ja sigui que "falla" o que "no té tal funció". Independentment dels canvis que feu, les proves són imprescindibles per interceptar qualsevol regressió que pugueu introduir accidentalment.
+  Crec que les "tests" són necessàries per a tot el codi en que les persones treballen. Si el codi era total i perfectament correcte, no necessitaríem canvis; només escrivim codi quan hi ha alguna cosa incorrecta, ja sigui que "falla" o que "no té tal funció". Independentment dels canvis que feu, els "tests" són imprescindibles per interceptar qualsevol regressió que pugueu introduir accidentalment.
   <p markdown="1" class="pquote-credit">
 — @edunham, ["Automatització comunitària de Rust"](https://edunham.net/2016/09/27/rust_s_community_automation.html)
   </p>
@@ -239,14 +239,14 @@ La bona notícia sobre el manteniment d'un projecte popular és que altres mante
 Hi ha una [varietat d'eines disponibles](https://github.com/showcases/tools-for-open-source) per ajudar a automatitzar alguns aspectes realcionats amb el treball de manteniment. Alguns exemples:
 
 * [publicació-semàntica](https://github.com/semantic-release/semantic-release) automatitza les vostres publicacions
-* [robot-de-mencions](https://github.com/facebook/mention-bot) menciona als revisors potencials per a sol·licituds d'extracció
+* [robot-de-mencions](https://github.com/facebook/mention-bot) menciona als revisors potencials per a "Pull Requests"
 * [Perill](https://github.com/danger/danger) ajuda a automatitzar la revisió de codi
 
-Per als informes d'errors i altres contribucions comunes, GitHub té [Plantilles de problema i Plantilles de sol·licitud d'extracció](https://github.com/blog/2111-issue-and-pull-request-templates), que podeu crear per a optimitzar la comunicació que rebeu. En @TalAter va fer una [Trieu la vostra pròpia guia d'aventura](https://www.talater.com/open-source-templates/#/) per ajudar-vos a escriure les vostres Plantilles de problema i Plantilles de sol·licitud d'extracció.
+Per als informes d'errors i altres contribucions comunes, GitHub té [Plantilles de "issues" i Plantilles de "Pull Requests"](https://github.com/blog/2111-issue-and-pull-request-templates), que podeu crear per a optimitzar la comunicació que rebeu. En @TalAter va fer una [Trieu la vostra pròpia guia d'aventura](https://www.talater.com/open-source-templates/#/) per ajudar-vos a escriure les vostres Plantilles de "issues" i Plantilles de "Pull Requests".
 
 Per gestionar les vostres notificacions per correu electrònic, podeu configurar [filtres de correu electrònic](https://github.com/blog/2203-email-updates-about-your-own-activity) per tal d'organitzar-les per prioritat.
 
-Si voleu anar una mica més enllà, les guies d'estil i les lents (*linters*) poden estandarditzar les contribucions del projecte i fer-les més fàcils de revisar i acceptar.
+Si voleu anar una mica més enllà, les guies d'estil i els "linters" poden estandarditzar les contribucions del projecte i fer-les més fàcils de revisar i acceptar.
 
 Tanmateix, si els vostres estàndards són massa complicats, poden augmentar les barreres per poder contribuir. Assegureu-vos que només afegiu les regles suficients per facilitar la vida de tots.
 
@@ -256,9 +256,9 @@ Si no esteu segurs de quines eines heu d'utilitzar, consulteu el que fan altres 
 
 Treballar amb codi obert us donarà alegries. Però potser ara us comença a fer-vos sentir evasius o culpables.
 
-Potser us sentiu aclaparats o amb un sentiment creixent de temor quan penseu en els vostres projectes. I mentrestant, els problemes i les peticions d'extracció s'acumulen.
+Potser us sentiu aclaparats o amb un sentiment creixent de temor quan penseu en els vostres projectes. I mentrestant, els problemes i les "Pull Requests" s'acumulen.
 
-Estar cremat (*burnout*) és un problema real i generalitzat en el treball de codi obert, especialment entre els mantenidors. Com a mantenidor, la vostra felicitat és un requisit no negociable per a la supervivència de qualsevol projecte de codi obert.
+Estar cremat és un problema real i generalitzat en el treball de codi obert, especialment entre els mantenidors. Com a mantenidor, la vostra felicitat és un requisit no negociable per a la supervivència de qualsevol projecte de codi obert.
 
 Tot i que no calgui recordar-ho, fes un descans! No espereu fins a sentir-vos cremats per prendre unes vacances. En @brettcannon, un desenvolupador del nucli de Python, va decidir prendre [un mes de vacances llarg](https://snarky.ca/why-i-took-october-off-of-oss-volunteering/) després de 14 anys de voluntariat d'OSS.
 
