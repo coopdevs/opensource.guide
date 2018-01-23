@@ -1,15 +1,15 @@
 ---
-locale: ca-ES
-title: Millors pràctiques per a mantenidors
-description: Facilitant la vostra vida com a mantenidor de codi obert, documentant processos per treure profit de la vostra comunitat.
-class: millors-practiques
+locale: en-US
+title: Best Practices for Maintainers
+description: Making your life easier as an open source maintainer, from documenting processes to leveraging your community.
+class: best-practices
 toc:
-  what-does-it-mean-to-be-a-maintainer: "Què vol dir ser un mantenidor?"
-  documenting-your-processes: "Documentant els vostres processos"
-  learning-to-say-no: "Aprenent a dir no"
-  leverage-your-community: "Aprofiteu la vostra comunitat"
-  bring-in-the-robots: "Porteu als robots"
-  its-okay-to-hit-pause: "Està bé fer una pausa"
+  what-does-it-mean-to-be-a-maintainer: "What does it mean to be a maintainer?"
+  documenting-your-processes: "Documenting your processes"
+  learning-to-say-no: "Learning to say no"
+  leverage-your-community: "Leverage your community"
+  bring-in-the-robots: "Bring in the robots"
+  its-okay-to-hit-pause: "It’s okay to hit pause"
 order: 5
 image: /assets/images/cards/best-practices.png
 related:
@@ -17,267 +17,267 @@ related:
   - leadership
 ---
 
-## Què vol dir ser un mantenidor?
+## What does it mean to be a maintainer?
 
-Si manteniu un projecte de codi obert que utilitza molta gent, és possible que hàgiu notat que escribiu menys codi i que responeu a més problemes.
+If you maintain an open source project that a lot of people use, you may have noticed you're coding less and responding to issues more.
 
-En les etapes inicials d'un projecte, us trobareu experimentant amb noves idees i prenent decisions basades en el que volgueu. A mesura que el vostre projecte creixi en popularitat, us trobareu treballant més amb els vostres usuaris i contribuïdors.
+In the early stages of a project, you're experimenting with new ideas and making decisions based on what you want. As your project increases in popularity, you'll find yourself working with your users and contributors more.
 
-Mantenir un projecte requereix molt més que codi. Aquestes tasques sovint són inesperades, però són tan o més importants per a un projecte en creixement. Hem recopilat diverses maneres de facilitar-vos la vida, documentant processos per aprofitar la vostra comunitat.
+Maintaining a project requires more than code. These tasks are often unexpected, but they're just as important to a growing project. We've gathered a few ways to make your life easier, from documenting processes to leveraging your community.
 
-## Documentant els vostres processos
+## Documenting your processes
 
-Redactar és una de les coses més importants que podeu fer com a mantenidor.
+Writing things down is one of the most important things you can do as a maintainer.
 
-La documentació no només aclareix el vostre propi pensament, sinó que ajuda a altres persones a comprendre el que necessiteu o espereu, fins i tot abans de preguntar-ho.
+Documentation not only clarifies your own thinking, but it helps other people understand what you need or expect, before they even ask.
 
-Redactar les coses fa que sigui més fàcil dir que no quan alguna cosa no encaixa en el vostre àmbit. També facilita que les persones entrin i ajudin. Mai se sap qui podria estar llegint o fent servir el vostre projecte.
+Writing things down makes it easier to say no when something doesn't fit into your scope. It also makes it easier for people to pitch in and help. You never know who might be reading or using your project.
 
-Fins i tot si no feu servir paràgrafs complets, anotar els punts principals és millor que no escriure res.
+Even if you don't use full paragraphs, jotting down bullet points is better than not writing at all.
 
-Recordeu mantenir actualitzada la vostra documentació. Si no podeu fer-ho sempre, suprimiu la vostra documentació obsoleta o indiqueu que està obsoleta, de manera que els contribuïdors sàpiguen que les actualitzacions són benvingudes.
+Remember to keep your documentation up-to-date. If you're not able to always do this, delete your outdated documentation or indicate it is outdated so contributors know updates are welcome.
 
-### Anoteu la visió del vostre projecte
+### Write down your project's vision
 
-Comenceu per anotar els objectius del vostre projecte. Afegiu-los al README o creeu un fitxer separat anomenat VISION. Si hi ha altres artefactes que ajudin, com ara un full de ruta del projecte, feu-los també públics.
+Start by writing down the goals of your project. Add them to your README, or create a separate file called VISION. If there are other artifacts that could help, like a project roadmap, make those public as well.
 
-Tenir una visió clara i documentada us manté enfocats i us ajuda a evitar l'"àmbit imprevist" de les contribucions dels altres.
+Having a clear, documented vision keeps you focused and helps you avoid "scope creep" from others' contributions.
 
-Per exemple, @lord va descobrir que tenir una visió de projecte el va ajudar a esbrinar en quines peticions destinar més temps. Com a nou mantenidor, va lamentar no ajustar-se a l'àmbit del seu projecte quan va rebre la primera sol·licitud de característica per a [Slate] (https://github.com/lord/slate).
+For example, @lord discovered that having a project vision helped him figure out which requests to spend time on. As a new maintainer, he regretted not sticking to his project's scope when he got his first feature request for [Slate](https://github.com/lord/slate).
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars2.githubusercontent.com/u/1976330?v=3&s=460" class="pquote-avatar" alt="avatar" alt="avatar d'en @lord">
-  Vaig fer-ho bé. No em vaig esforçar per trobar una solució completa. En lloc d'una solució a mig fer, m'agradaria haver dit "Ara no tinc temps per a això, ho afegiré a la llista de coses ideals a tenir a llarg termini."
+  <img src="https://avatars2.githubusercontent.com/u/1976330?v=3&s=460" class="pquote-avatar" alt="avatar" alt="@lord avatar">
+  I fumbled it. I didn't put in the effort to come up with a complete solution. Instead of an half-assed solution, I wish I had said "I don't have time for this right now, but I'll add it to the long term nice-to-have list."
   <p markdown="1" class="pquote-credit">
-— @lord, ["Consells per a nous mantenidors de codi obert"](https://lord.io/blog/2014/oss-tips/)
+— @lord, ["Tips for new open source maintainers"](https://lord.io/blog/2014/oss-tips/)
   </p>
 </aside>
 
-### Comuniqueu les vostres expectatives
+### Communicate your expectations
 
-Les regles poden ser angoixants d'escriure. Sovint pot semblar que esteu vigilant el comportament dels altres o tallant tota la diversió.
+Rules can be nerve-wracking to write down. Sometimes you might feel like you're policing other people's behavior or killing all the fun.
 
-Malgrat això, escrites i executades de manera justa, les bones regles capaciten els mantenidors. T'impedeixen ser arrossegat a fer coses que no vols fer.
+Written and enforced fairly, however, good rules empower maintainers. They prevent you from getting dragged into doing things you don't want to do.
 
-La majoria de persones que es troben amb el vostre projecte no saben res sobre vosaltres ni sobre les vostres circumstàncies. Poden suposar que cobreu un sou per treballar-hi, especialment si és quelcom que habitualment utilitzen amb certa dependència. Potser, en un moment donat, destineu molt temps al vostre projecte, però ara esteu ocupats amb una nova feina o algun membre de la família.
+Most people who come across your project don't know anything about you or your circumstances. They may assume you get paid to work on it, especially if it's something they regularly use and depend on. Maybe at one point you put a lot of time into your project, but now you're busy with a new job or family member.
 
-Tot això és perfectament acceptable! Simplement assegureu-vos de que les altres persones en tenen constància.
+All of this is perfectly okay! Just make sure other people know about it.
 
-Si el manteniment del vostre projecte és a temps parcial o purament voluntari, sigueu honestos sobre la quantitat de temps que disposeu. Això no és el mateix que la quantitat de temps que penseu que el projecte requereix, o que els altres volen que hi destineu.
+If maintaining your project is part-time or purely volunteered, be honest about how much time you have. This is not the same as how much time you think the project requires, or how much time others want you to spend.
 
-Heus aquí algunes regles que val la pena anotar:
+Here are a few rules that are worth writing down:
 
-* Com es revisa i s'accepta una contribució (_Necessiten proves? Una plantilla d'incidència?_)
-* Tipus de contribucions que acceptareu (_Voleu només ajuda amb una determinada part del vostre codi?_)
-* Quan és adequat el seguiment (_per exemple, "Podeu esperar una resposta d'un mantenidor en un termini de 7 dies. Si no heu sentit res aleshores, no dubteu a fer-lo servir"._)
-* Quant de temps es dedica al projecte (_per exemple, "Només dediquem unes 5 hores setmanals a aquest projecte"_)
+* How a contribution is reviewed and accepted (_Do they need tests? An issue template?_)
+* The types of contributions you'll accept (_Do you only want help with a certain part of your code?_)
+* When it's appropriate to follow up (_for example, "You can expect a response from a maintainer within 7 days. If you haven't heard anything by then, feel free to ping the thread."_)
+* How much time you spend on the project (_for example, "We only spend about 5 hours per week on this project"_)
 
-[Jekyll](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules), i [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md) són diversos examples de projectes amb regles bàsiques per als mantenidors i contribuïdors.
+[Jekyll](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules), and [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md) are several examples of projects with ground rules for maintainers and contributors.
 
-### Mantingueu pública la comunicació
+### Keep communication public
 
-No oblideu, també, de documentar les vostres interaccions. Sempre que pugueu, mantingueu pública la comunicació sobre el vostre projecte. Si algú intenta contactar-vos de manera privada per discutir una sol·licitud de funcions o una necessitat de suport, dirigiu-lo educadament a un canal de comunicació pública, com ara una llista de correu o un gestor d'incidències.
+Don't forget to document your interactions, too. Wherever you can, keep communication about your project public. If somebody tries to contact you privately to discuss a feature request or support need, politely direct them to a public communication channel, such as a mailing list or issue tracker.
 
-Si us reuniu amb altres mantenidors o preneu una decisió important en privat, documenteu aquestes converses en públic, fins i tot si es tracta només de publicar les vostres notes.
+If you meet with other maintainers, or make a major decision in private, document these conversations in public, even if it's just posting your notes.
 
-D'aquesta manera, qualsevol que s'uneixi a la vostra comunitat tindrà accés a la mateixa informació que algú que hi hagi estat durant anys.
+That way, anybody who joins your community will have access to the same information as someone who's been there for years.
 
-## Aprenent a dir no
+## Learning to say no
 
-Ja heu escrit les coses. L'ideal seria que tothom llegís la vostra documentació, però, en realitat, haureu de recordar als demés que aquest coneixement existeix.
+You've written things down. Ideally, everybody would read your documentation, but in reality, you'll have to remind others that this knowledge exists.
 
-Tanmateix, tenir-ho tot per escrit, contribueix a despersonalitzar situacions quan necessiteu fer complir les normes.
+Having everything written down, however, helps depersonalize situations when you do need to enforce your rules.
 
-Dir que no, no és pas divertit, però _"La vostra contribució no coincideix amb els criteris d'aquest projecte"_ sona menys personal que _"no m'agrada la vostra contribució"_.
+Saying no isn't fun, but  _"Your contribution doesn't match this project's criteria"_ feels less personal than _"I don't like your contribution"_.
 
-Dir que no es pot aplicar a moltes situacions que us trobareu com a mantenidor: sol·licituds de funcions que no s'ajusten a l'àmbit d'actuació, algú fent descarrilar un debat, donant feina innecessària als demés.
+Saying no applies to many situations you'll come across as a maintainer: feature requests that don't fit the scope, someone derailing a discussion, doing unnecessary work for others.
 
-### Mantingueu la conversa amistosa
+### Keep the conversation friendly
 
-Un dels llocs més importants on practicareu dient que no és en el vostre problema i a la vostra cua de Sol·licituds d'Extracció (SE). Com a mantenidors del projecte, inevitablement rebreu suggeriments que no voldreu acceptar.
+One of the most important places you'll practice saying no is on your issue and pull request queue. As a project maintainer, you'll inevitably receive suggestions that you don't want to accept.
 
-És possible que la contribució canvii l'àmbit del vostre projecte o no coincideixi amb la vostra visió. Pot ser lque a idea sigui bona, però que la implementació sigui deficient.
+Maybe the contribution changes your project's scope or doesn't match your vision. Maybe the idea is good, but the implementation is poor.
 
-Independentment del motiu, és possible tractar amb cura aquelles contribucions que no compleixin amb els estàndards del vostre projecte.
+Regardless of the reason, it is possible to tactfully handle contributions that don't meet your project's standards.
 
-Si rebeu una contribució que no voleu acceptar, la vostra primera reacció podria ser ignorar-la o fer veure que no l'heu vist. Si ho feu, podria ferir els sentiments dels altres, o fins i tot desmotivar altres potencials col·laboradors de la vostra comunitat.
+If you receive a contribution you don't want to accept, your first reaction might be to ignore it or pretend you didn't see it. Doing so could hurt the other person's feelings and even demotivate other potential contributors in your community.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/869950?v=3&s=400" class="pquote-avatar" alt="avatar" alt="avatar d'en @KrauseFx">
-  La clau per gestionar el suport per a projectes de codi obert a gran escala, és evitar que els problemes es belluguin. Intenteu evitar tenir problemes. Si sou desenvolupador d'iOS, sabreu el frustrant que pot arribar a ser el fet d'enviar radars. És possible que rebeu resposta, 2 anys més tard, i se us demani que torneu a provar amb l'última versió d'iOS.
+  <img src="https://avatars3.githubusercontent.com/u/869950?v=3&s=400" class="pquote-avatar" alt="avatar" alt="@KrauseFx avatar">
+  The key to handle support for large-scale open source projects is to keep issues moving. Try to avoid having issues stall. If you're an iOS developer you know how frustrating it can be to submit radars. You might hear back 2 years later, and are told to try again with the latest version of iOS.
   <p markdown="1" class="pquote-credit">
-— @KrauseFx, ["Escalant comunitats de codi obert"](https://krausefx.com/blog/scaling-open-source-communities)
+— @KrauseFx, ["Scaling open source communities"](https://krausefx.com/blog/scaling-open-source-communities)
   </p>
 </aside>
 
-No deixeu una contribució no desitjada oberta pel fet de sentir-vos culpables o voler ser amables. Amb el pas del temps, els vostres problemes i SE sense resposta faran que treballar en el vostre projecte resulti molt més estressant i intimidant.
+Don't leave an unwanted contribution open because you feel guilty or want to be nice. Over time, your unanswered issues and PRs will make working on your project feel that much more stressful and intimidating.
 
-És millor tancar immediatament aquelles contribucions que sabeu per endavant que no voleu acceptar. Si el vostre projecte ja pateix un gran retard, @steveklabnik té suggeriments sobre [com classificar problemes de manera eficient] (http://words.steveklabnik.com/how-to-be-an-open-source-gardener).
+It's better to immediately close the contributions you know you don't want to accept. If your project already suffers from a large backlog, @steveklabnik has suggestions for [how to triage issues efficiently](http://words.steveklabnik.com/how-to-be-an-open-source-gardener).
 
-En segon lloc, ignorar les contribucions envia un senyal negatiu a la vostra comunitat. Contribuir a un projecte pot ser intimidatori, especialment si és per primera vegada. Fins i tot si no accepteu les contribucions dels altres, mostreu reconeixement per la persona que hi ha al darrera, i agraïu-li el seu interès. És un gran elogi!
+Secondly, ignoring contributions sends a negative signal to your community. Contributing to a project can be intimidating, especially if it's someone's first time. Even if you don't accept their contribution, acknowledge the person behind it and thank them for their interest. It's a big compliment!
 
-Si no voleu acceptar una contribució:
+If you don't want to accept a contribution:
 
-* **Doneu-los les gràcies** per la seva contribució
-* **Expliqueu-los per què no encaixa** en l'àmbit del projecte i oferiu suggeriments clars per a la millora, si és possible. Sigueu amable, però ferm.
-* **Enllaceu cap la documentació rellevant**, si en disposeu. Si observeu sol·licituds repetides de coses que no voleu acceptar, afegiu-les a la vostra documentació per evitar de repetir-les.
-* **Tanqueu la petició**
+* **Thank them** for their contribution
+* **Explain why it doesn't fit** into the scope of the project, and offer clear suggestions for improvement, if you're able. Be kind, but firm.
+* **Link to relevant documentation**, if you have it. If you notice repeated requests for things you don't want to accept, add them into your documentation to avoid repeating yourself.
+* **Close the request**
 
-No haurieu de necessitar més de 1-2 frases per respondre. Per exemple, quan un usuari de [Celery] (https://github.com/cellery/celery/) va informar d'un error relacionat amb Windows, en @berkerpeksag [va respondre amb] (https://github.com/celery/celery/issues/3383):
+You shouldn't need more than 1-2 sentences to respond. For example, when a user of [celery](https://github.com/celery/celery/) reported a Windows-related error, @berkerpeksag [responded with](https://github.com/celery/celery/issues/3383):
 
-![Captura de pantalla de Celery](/assets/images/best-practices/celery.png)
+![Celery screenshot](/assets/images/best-practices/celery.png)
 
-Si la idea de dir no us atemoritza, no esteu sol. [Poseu-ho] (https://blog.jessfraz.com/post/the-art-of-closing/) com en @jessfraz:
+If the thought of saying no terrifies you, you're not alone. As @jessfraz [put it](https://blog.jessfraz.com/post/the-art-of-closing/):
 
-> He parlat amb els mantenidors de diversos projectes de codi obert, Mesos, Kubernetes, Chromium, i tots estan d'acord en que una de les parts més dures de ser un mantenidor és dir "No" als pedaços que no vulgueu.
+> I've talked to maintainers from several different open source projects, Mesos, Kubernetes, Chromium, and they all agree one of the hardest parts of being a maintainer is saying "No" to patches you don't want.
 
-No us sentiu culpable de no voler acceptar la contribució d'algú. La primera regla de codi obert, [segons](https://twitter.com/solomonstre/status/715277134978113536) @shykes: _"No és temporal, sí és per sempre."_ Tot i que l'empatia per l'entusiasme d'una altra persona és cosa bona, rebutjar una contribució no és el mateix que rebutjar la persona que hi ha al darrera.
+Don't feel guilty about not wanting to accept someone's contribution. The first rule of open source, [according to](https://twitter.com/solomonstre/status/715277134978113536) @shykes: _"No is temporary, yes is forever."_ While empathizing with another person's enthusiasm is a good thing, rejecting a contribution is not the same as rejecting the person behind it.
 
-En última instància, si una contribució no és prou bona, no teniu cap obligació d'acceptar-la. Sigueu amable i atent quan la gent contribueixi al vostre projecte, però només accepteu canvis que cregueu realment que faran que el vostre projecte sigui millor. Com més freqüentment practiqueu dir que no, més fàcil serà. En dono fe.
+Ultimately, if a contribution isn't good enough, you're under no obligation to accept it. Be kind and responsive when people contribute to your project, but only accept changes that you truly believe will make your project better. The more often you practice saying no, the easier it becomes. Promise.
 
-### Sigueu proactius
+### Be proactive
 
-Per reduir el volum de contribucions no desitjades, expliqueu el procés del vostre projecte per enviar i acceptar contribucions, a la vostra guia sobre contribucions.
+To reduce the volume of unwanted contributions in the first place, explain your project's process for submitting and accepting contributions in your contributing guide.
 
-Si rebeu massa contribucions de baixa qualitat, demaneu als col·laboradors que facin una mica de feina per endavant, per exemple:
+If you're receiving too many low-quality contributions, require that contributors do a bit of work beforehand, for example:
 
-* Empleneu un problema o una plantilla de SE/llista de verificació
-* Obriu un problema abans d'enviar una SE
+* Fill out a issue or PR template/checklist
+* Open an issue before submitting a PR
 
-Si no segueixen les vostres regles, tanqueu el problema immediatament i adreceu-los cap a la documentació.
+If they don't follow your rules, close the issue immediately and point to your documentation.
 
-Tot i que aquest enfocament pot semblar desconsiderat al principi, ser proactiu és realment bo per a ambdues parts. Redueix la possibilitat que algú introdueixi moltes hores de treball malgastades en una SE que no penseu acceptar. I fa que la vostra càrrega de treball sigui més fàcil de gestionar.
+While this approach may feel unkind at first, being proactive is actually good for both parties. It reduces the chance that someone will put in many wasted hours of work into a pull request that you aren't going to accept. And it makes your workload easier to manage.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars0.githubusercontent.com/u/125011" class="pquote-avatar" alt="avatar">
-  Idealment, expliqueu-los en un fitxer CONTRIBUTING.md com poden obtenir una millor indicació en el futur sobre el que seria o no acceptat abans de començar la feina.
+  Ideally, explain to them and in a CONTRIBUTING.md file how they can get a better indication in the future on what would or would not be accepted before they begin the work.
   <p markdown="1" class="pquote-credit">
-— @mikemcquaid, ["Tancant Sol·licituds d'Extracció amablement"](https://github.com/blog/2124-kindly-closing-pull-requests)
+— @mikemcquaid, ["Kindly Closing Pull Requests"](https://github.com/blog/2124-kindly-closing-pull-requests)
   </p>
 </aside>
 
-De vegades, quan dieu que no, el vostre potencial col·laborador podria molestar-se o criticar la vostra decisió. Si el seu comportament es torna hostil, [prengueu mesures per apaivagar la situació](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive#action-items) o fins i tot elimineu-los de la vostra comunitat, si no estan disposats a col·laborar de forma constructiva.
+Sometimes, when you say no, your potential contributor may get upset or criticize your decision. If their behavior becomes hostile, [take steps to defuse the situation](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive#action-items) or even remove them from your community, if they're not willing to collaborate constructively.
 
-### Abraceu la tutoria
+### Embrace mentorship
 
-Sovint pot passar que algú de la vostra comunitat enviï regularment contribucions que no compleixin amb els estàndards del vostre projecte. Pot ser frustrant per ambdues parts rebutjar-se repetidament.
+Maybe someone in your community regularly submits contributions that don't meet your project's standards. It can be frustrating for both parties to repeatedly go through rejections.
 
-Si veieu que algú està entusiasmat amb el vostre projecte, però necessita polir alguns aspectes, tingueu paciència. Expliqueu-los clarament en cada situació per què les seves contribucions no compleixen amb les expectatives del projecte. Intenteu fer-los referència a una tasca més fàcil o menys ambigua, com ara un problema marcat com a _"primer error,"_ per tal d'iniciar-los en la feina. Si teniu temps, considereu orientar-lo a través de la seva primera contribució, o trobeu a algú més a la vostra comunitat que estigui disposat a fer-ho.
+If you see that someone is enthusiastic about your project, but needs a bit of polish, be patient. Explain clearly in each situation why their contributions don't meet the expectations of the project. Try pointing them to an easier or less ambiguous task, like an issue marked _"good first bug,"_ to get their feet wet. If you have time, consider mentoring them through their first contribution, or find someone else in your community who might be willing to mentor them.
 
-## Aprofiteu la vostra comunitat
+## Leverage your community
 
-No cal fer-ho tot tu mateix. La comunitat del vostre projecte existeix per un motiu! Fins i tot si encara no teniu una comunitat de col·laboradors actius, si teniu molts usuaris, poseu-los a treballar.
+You don't have to do everything yourself. Your project's community exists for a reason! Even if you don't yet have an active contributor community, if you have a lot of users, put them to work.
 
-### Compartiu la càrrega de treball
+### Share the workload
 
-Si voleu que tothom participi, comenceu per preguntar al vostre entorn.
+If you're looking for others to pitch in, start by asking around.
 
-Quan trobeu nous contribuïdors fent contribucions repetides, reconeixeu el seu treball oferint-los més responsabilitat. Documenteu com els altres poden créixer en funcions de lideratge, si ho desitgen.
+When you see new contributors making repeated contributions, recognize their work by offering more responsibility. Document how others can grow into leadership roles if they wish.
 
-Encoratjar els demés a [compartir la propietat del projecte](../building-community/#share-ownership-of-your-project) pot reduir considerablement la vostra pròpia càrrega de treball, tal i com la @lmccart va descobrir en el seu projecte [p5.js](https://github.com/processing/p5.js?files=1).
+Encouraging others to [share ownership of the project](../building-community/#share-ownership-of-your-project) can greatly reduce your own workload, as @lmccart discovered on her project, [p5.js](https://github.com/processing/p5.js?files=1).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars3.githubusercontent.com/u/191056?v=3&s=460" class="pquote-avatar" alt="avatar">
-  Jo havia estat dient: "Sí, qualsevol persona pot estar involucrada, no cal que tingui molts coneixements de codi" [...]." Teníem gent inscrita per venir [a un esdeveniment] i aleshores va ser quan em vaig preguntar realment: és cert el què he dit? Hi haurà 40 persones que apareixeran, i no podré assseure'm amb cadascuna d'elles ... Però la gent es va unir, i d'alguna forma va funcionar. Tan aviat com una persona ho va aconseguir, va poder ensenyar al seu veí.
+  I’d been saying, “Yeah, anyone can be involved, you don’t have to have a lot of coding expertise [...].” We had people sign up to come [to an event] and that’s when I was really wondering: is this true, what I’ve been saying? There are gonna be 40 people who show up, and it’s not like I can sit with each of them...But people came together, and it just sort of worked. As soon as one person got it, they could teach their neighbor.
   <p markdown="1" class="pquote-credit">
-—  @lmccart, ["Què significa exactament “codi obert”? Edició p5.js"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39#.chnjlag7p)
+—  @lmccart, ["What Does “Open Source” Even Mean? p5.js Edition"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39#.chnjlag7p)
   </p>
 </aside>
 
-Si necessiteu allunyar-vos del vostre projecte, ja sigui temporal o permanentment, no us faci vergonya demanar-li a algú que se'n faci càrrec.
+If you need to step away from your project, either on hiatus or permanently, there's no shame in asking someone else to take over for you.
 
-Si altres persones estan entusiasmades amb la seva orientació, doneu-los accés per poder cometre (*commit*) o bé doneu-li el control a una altra persona. Si algú va fer un bifurcació (*fork*) del vostre projecte i el manté activament en un altre lloc, considereu enllaçar amb la bifurcació del vostre projecte original. És genial que tantes persones vulguin fer perdurar el vostre projecte!
+If other people are enthusiastic about its direction, give them commit access or formally hand over control to someone else. If someone forked your project and is actively maintaining it elsewhere, consider linking to the fork from your original project. It's great that so many people want your project to live on!
 
-En @progrium [va descobrir això](http://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) tot documentant la visió del seu projecte, [Dokku](https://github.com/dokku/dokku), ajudant a viure aquests objectius fins i tot després d'allunyar-se del projecte:
+@progrium [found that](http://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) documenting the vision for his project, [Dokku](https://github.com/dokku/dokku), helped those goals live on even after he stepped away from the project:
 
-> Vaig escriure una pàgina de wiki que descrivia el que volia i per què ho volia. Per alguna raó, va sorprendre'm que els mantenidors comencèssin a moure el projecte en aquella direcció! Va passar exactament com jo ho faria? No sempre. Però tot i així el projecte va arribar més a prop del que jo vaig anotar.
+> I wrote a wiki page describing what I wanted and why I wanted it. For some reason it came as a surprise to me that the maintainers started moving the project in that direction! Did it happen exactly how I'd do it? Not always. But it still brought the project closer to what I wrote down.
 
-### Deixeu que els altres construeixin les solucions que necessiten
+### Let others build the solutions they need
 
-Si un potencial contribuïdor té una opinió diferent sobre el que hauria de fer el vostre projecte, és possible que vulgueu encoratjar-los a treballar amb la seva pròpia bifurcació.
+If a potential contributor has a different opinion on what your project should do, you may want to gently encourage them to work on their own fork.
 
-Bifurcar un projecte no ha de ser una cosa dolenta. Ser capaç de copiar i modificar projectes és una de les millors coses sobre el codi obert. Animar els membres de la comunitat a que treballin en la seva pròpia bifurcació pot donar-los la sortida creativa que necessiten, sense entrar en conflicte amb la vostra visió del projecte.
+Forking a project doesn't have to be a bad thing. Being able to copy and modify projects is one of the best things about open source. Encouraging your community members to work on their own fork can provide the creative outlet they need, without conflicting with your project's vision.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars1.githubusercontent.com/u/481677?v=3&s=400" class="pquote-avatar" alt="avatar">
-  Em refereixo al cas d'ús del 80%. Si ets un dels unicornis, si us plau bifurca el meu treball. No m'ofenderé! Els meus projectes públics gairebé sempre estan destinats a resoldre els problemes més comuns; Tracto de que sigui fàcil aprofundir, ja sigui bifurcant el meu treball o estenent-lo.
+  I cater to the 80% use case. If you are one of the unicorns, please fork my work. I won't get offended! My public projects are almost always meant to solve the most common problems; I try to make it easy to go deeper by either forking my work or extending it.
   <p markdown="1" class="pquote-credit">
-— @geerlingguy, ["Per què tanco SEs"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
+— @geerlingguy, ["Why I Close PRs"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
   </p>
 </aside>
 
-El mateix s'aplica a un usuari que realment vol una solució, que simplement no és a la vostra disposició de construir. Oferir APIs i garfis (*hooks*) de personalització pot ajudar els altres a satisfer les seves necessitats, sense haver de modificar la font directament. En @orta [es va trobar que](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) encoratjant complements (*plugins*) per a CocoaPods va provocar "algunes de les idees més interessants":
+The same applies to a user who really wants a solution that you simply don't have the bandwidth to build. Offering APIs and customization hooks can help others meet their own needs, without having to modify the source directly. @orta [found that](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) encouraging plugins for CocoaPods led to "some of the most interesting ideas":
 
-> És gairebé inevitable que una vegada un projecte esdevé gran, els mantenidors han de ser molt més conservadors en el moment d'introduir codi nou. Et tornes més bo dient "no", però molta gent té necessitats legítimes. Per tant, enlloc d'això, acabeu convertint la vostra eina en una plataforma.
+> It's almost inevitable that once a project becomes big, maintainers have to become a lot more conservative about how they introduce new code. You become good at saying "no", but a lot of people have legitimate needs. So, instead you end up converting your tool into a platform.
 
-## Porteu als robots
+## Bring in the robots
 
-De la mateixa manera que hi ha tasques en que altres persones poden ajudar-vos, també hi ha tasques que cap humà hauria de fer mai. Els robots són els vostres amics. Utilitzeu-los per facilitar-vos la vida com a mantenidors.
+Just as there are tasks that other people can help you with, there are also tasks that no human should ever have to do. Robots are your friend. Use them to make your life as a maintainer easier.
 
-### Demaneu proves (*tests*) i altres controls per millorar la qualitat del vostre codi
+### Require tests and other checks to improve the quality of your code
 
-Una de les maneres més importants per tal d'automatitzar el vostre projecte és afegir proves.
+One of the most important ways you can automate your project is by adding tests.
 
-Les proves ajuden els col·laboradors a confiar en que no trencaran res. També fan més fàcil revisar i acceptar contribucions ràpidament. Com més atents sigueu, més compromesa pot arribar a estar la vostra comunitat.
+Tests help contributors feel confident that they won't break anything. They also make it easier for you to review and accept contributions quickly. The more responsive you are, the more engaged your community can be.
 
-Configureu les proves automàtiques que s'executaran a totes les contribucions entrants, i assegureu-vos que les vostres proves es puguin executar localment pels col·laboradors. Demaneu que totes les contribucions de codi passin les proves abans de poder enviar-les. Ajudareu a establir un nivell mínim de qualitat per a tots els enviaments. Utilitzar [comprovacions d'estat requerides](https://help.github.com/articles/about-required-status-checks/) a GitHub pot ajudar a evitar fusions (*merge*) canvis sense passar les proves.
+Set up automatic tests that will run on all incoming contributions, and ensure that your tests can easily be run locally by contributors. Require that all code contributions pass your tests before they can be submitted. You'll help set a minimum standard of quality for all submissions. [Required status checks](https://help.github.com/articles/about-required-status-checks/) on GitHub can help ensure no change gets merged without your tests passing.
 
-Si afegiu proves, assegureu-vos d'explicar com funcionen al vostre fitxer CONTRIBUTING.
+If you add tests, make sure to explain how they work in your CONTRIBUTING file.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars3.githubusercontent.com/u/812892?v=3&s=460" class="pquote-avatar" alt="avatar">
-  Crec que les proves són necessàries per a tot el codi en que les persones treballen. Si el codi era total i perfectament correcte, no necessitaríem canvis; només escrivim codi quan hi ha alguna cosa incorrecta, ja sigui que "falla" o que "no té tal funció". Independentment dels canvis que feu, les proves són imprescindibles per interceptar qualsevol regressió que pugueu introduir accidentalment.
+  I believe that tests are necessary for all code that people work on. If the code was fully and perfectly correct, it wouldn't need changes – we only write code when something is wrong, whether that's "It crashes" or "It lacks such-and-such a feature". And regardless of the changes you're making, tests are essential for catching any regressions you might accidentally introduce.
   <p markdown="1" class="pquote-credit">
-— @edunham, ["Automatització comunitària de Rust"](https://edunham.net/2016/09/27/rust_s_community_automation.html)
+— @edunham, ["Rust's Community Automation"](https://edunham.net/2016/09/27/rust_s_community_automation.html)
   </p>
 </aside>
 
-### Utilitzeu eines per automatitzar tasques bàsiques de manteniment
+### Use tools to automate basic maintenance tasks
 
-La bona notícia sobre el manteniment d'un projecte popular és que altres mantenidors probablement han tingut problemes similars i han creat una solució.
+The good news about maintaining a popular project is that other maintainers have probably faced similar issues and built a solution for it.
 
-Hi ha una [varietat d'eines disponibles](https://github.com/showcases/tools-for-open-source) per ajudar a automatitzar alguns aspectes realcionats amb el treball de manteniment. Alguns exemples:
+There are a [variety of tools available](https://github.com/showcases/tools-for-open-source) to help automate some aspects of maintenance work. A few examples:
 
-* [publicació-semàntica](https://github.com/semantic-release/semantic-release) automatitza les vostres publicacions
-* [robot-de-mencions](https://github.com/facebook/mention-bot) menciona als revisors potencials per a sol·licituds d'extracció
-* [Perill](https://github.com/danger/danger) ajuda a automatitzar la revisió de codi
+* [semantic-release](https://github.com/semantic-release/semantic-release) automates your releases
+* [mention-bot](https://github.com/facebook/mention-bot) mentions potential reviewers for pull requests
+* [Danger](https://github.com/danger/danger) helps automate code review
 
-Per als informes d'errors i altres contribucions comunes, GitHub té [Plantilles de problema i Plantilles de sol·licitud d'extracció](https://github.com/blog/2111-issue-and-pull-request-templates), que podeu crear per a optimitzar la comunicació que rebeu. En @TalAter va fer una [Trieu la vostra pròpia guia d'aventura](https://www.talater.com/open-source-templates/#/) per ajudar-vos a escriure les vostres Plantilles de problema i Plantilles de sol·licitud d'extracció.
+For bug reports and other common contributions, GitHub has [Issue Templates and Pull Request Templates](https://github.com/blog/2111-issue-and-pull-request-templates), which you can create to streamline the communication you receive. @TalAter made a [Choose Your Own Adventure guide](https://www.talater.com/open-source-templates/#/) to help you write your issue and PR templates.
 
-Per gestionar les vostres notificacions per correu electrònic, podeu configurar [filtres de correu electrònic](https://github.com/blog/2203-email-updates-about-your-own-activity) per tal d'organitzar-les per prioritat.
+To manage your email notifications, you can set up [email filters](https://github.com/blog/2203-email-updates-about-your-own-activity) to organize by priority.
 
-Si voleu anar una mica més enllà, les guies d'estil i les lents (*linters*) poden estandarditzar les contribucions del projecte i fer-les més fàcils de revisar i acceptar.
+If you want to get a little more advanced, style guides and linters can standardize project contributions and make them easier to review and accept.
 
-Tanmateix, si els vostres estàndards són massa complicats, poden augmentar les barreres per poder contribuir. Assegureu-vos que només afegiu les regles suficients per facilitar la vida de tots.
+However, if your standards are too complicated, they can increase the barriers to contribution. Make sure you're only adding enough rules to make everyone's lives easier.
 
-Si no esteu segurs de quines eines heu d'utilitzar, consulteu el que fan altres projectes populars, especialment aquells del vostre ecosistema. Per exemple, quin aspecte té el procés de contribució per a altres mòduls de Node? Utilitzar eines i enfocaments similars també farà que el vostre procés sigui més familiar per als vostres col·laboradors objectiu.
+If you're not sure which tools to use, look at what other popular projects do, especially those in your ecosystem. For example, what does the contribution process look like for other Node modules? Using similar tools and approaches will also make your process more familiar to your target contributors.
 
-## Està bé fer una pausa
+## It's okay to hit pause
 
-Treballar amb codi obert us donarà alegries. Però potser ara us comença a fer-vos sentir evasius o culpables.
+Open source work once brought you joy. Maybe now it's starting to make you feel avoidant or guilty.
 
-Potser us sentiu aclaparats o amb un sentiment creixent de temor quan penseu en els vostres projectes. I mentrestant, els problemes i les peticions d'extracció s'acumulen.
+Perhaps you're feeling overwhelmed or a growing sense of dread when you think about your projects. And meanwhile, the issues and pull requests pile up.
 
-Estar cremat (*burnout*) és un problema real i generalitzat en el treball de codi obert, especialment entre els mantenidors. Com a mantenidor, la vostra felicitat és un requisit no negociable per a la supervivència de qualsevol projecte de codi obert.
+Burnout is a real and pervasive issue in open source work, especially among maintainers. As a maintainer, your happiness is a non-negotiable requirement for the survival of any open source project.
 
-Tot i que no calgui recordar-ho, fes un descans! No espereu fins a sentir-vos cremats per prendre unes vacances. En @brettcannon, un desenvolupador del nucli de Python, va decidir prendre [un mes de vacances llarg](https://snarky.ca/why-i-took-october-off-of-oss-volunteering/) després de 14 anys de voluntariat d'OSS.
+Although it should go without saying, take a break! You shouldn't have to wait until you feel burned out to take a vacation. @brettcannon, a Python core developer, decided to take [a month-long vacation](https://snarky.ca/why-i-took-october-off-from-oss-volunteering/) after 14 years of volunteer OSS work.
 
-Com a qualsevol altre tipus de feina, fer pauses regulars us mantindrà fresc, feliç i emocionat pel vostre treball.
+Just like any other type of work, taking regular breaks will keep you refreshed, happy, and excited about your work.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars1.githubusercontent.com/u/36432?v=3&s=400" class="pquote-avatar" alt="avatar">
-  En mantenir WP-CLI, he descobert que primer m'he de fer feliç a mi mateix, i establir límits clars sobre la meva participació. El millor equilibri que he trobat és de 2 a 5 hores setmanals, com a part del meu calendari de treball normal. Això fa que matingui la meva participació com una passió, i de sentir-se massa com treballant. Gràcies al fet de prioritzar els problemes en els que estic treballant, puc fer progressos regulars sobre el que considero més important.
+  In maintaining WP-CLI, I've discovered I need to make myself happy first, and set clear boundaries on my involvement. The best balance I've found is 2-5 hours per week, as a part of my normal work schedule. This keeps my involvement a passion, and from feeling too much like work. Because I prioritize the issues I'm working on, I can make regular progress on what I think is most important.
   <p markdown="1" class="pquote-credit">
-— @danielbachhuber, ["Us acompanyo en el sentiment, ara sou el mantenidor d'un projecte de codi obert popular"](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
+— @danielbachhuber, ["My condolences, you're now the maintainer of a popular open source project"](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
   </p>
 </aside>
 
-De vegades, pot ser difícil descansar del treball de codi obert, quan sentiu que tothom us necessita. La gent pot, fins i tot, intentar fer-vos sentir culpable de fugir.
+Sometimes, it can be hard to take a break from open source work when it feels like everybody needs you. People may even try to make you feel guilty for stepping away.
 
-Feu el millor que pogueu per trobar suport per als vostres usuaris i per a la vostra comunitat mentre estigueu fora d'un projecte. Si no podeu trobar el suport que necessiteu, preneu-vos un descans de totes formes. Assegureu-vos de comunicar quan no estigueu disponible, per tal que la gent no estigui confosa per la vostra falta de resposta.
+Do your best to find support for your users and community while you're away from a project. If you can't find the support you need, take a break anyway. Be sure to communicate when you're not available, so people aren't confused by your lack of responsiveness.
 
-Fer pauses s'aplica més enllà de les vacances. Si no voleu fer treballs de codi obert els caps de setmana, o durant l'horari laboral, comuniqueu aquestes expectatives als altres, per tal de no molestar-vos.
+Taking breaks applies to more than just vacations, too. If you don't want to do open source work on weekends, or during work hours, communicate those expectations to others, so they know not to bother you.
 
-## Cuideu-vos primer!
+## Take care of yourself first!
 
-Mantenir un projecte popular requereix diferents habilitats que les primeres etapes de creixement, però no és menys gratificant. Com a mantenidor, practicareu el lideratge i les habilitats personals a un nivell que poques persones poden experimentar. Tot i que no sempre és fàcil de gestionar, establir límits clars i només assumir el que us fa sentir còmodes, us ajudarà a mantenir-vos feliços, frescos i productius.
+Maintaining a popular project requires different skills than the earlier stages of growth, but it's no less rewarding. As a maintainer, you'll practice leadership and personal skills on a level that few people get to experience. While it's not always easy to manage, setting clear boundaries and only taking on what you're comfortable with will help you stay happy, refreshed, and productive.
