@@ -129,7 +129,7 @@ No haurieu de necessitar més de 1-2 frases per respondre. Per exemple, quan un 
 
 Si la idea de dir no us atemoritza, no esteu sol. [Poseu-ho] (https://blog.jessfraz.com/post/the-art-of-closing/) com en @jessfraz:
 
-> He parlat amb els mantenidors de diversos projectes de codi obert, Mesos, Kubernetes, Chromium, i tots estan d'acord en que una de les parts més dures de ser un mantenidor és dir "No" als pedaços que no volgueu.
+> He parlat amb els mantenidors de diversos projectes de codi obert, Mesos, Kubernetes, Chromium, i tots estan d'acord en que una de les parts més dures de ser un mantenidor és dir "No" als pedaços que no vulgueu.
 
 No us sentiu culpable de no voler acceptar la contribució d'algú. La primera regla de codi obert, [segons](https://twitter.com/solomonstre/status/715277134978113536) @shykes: _"No és temporal, sí és per sempre."_ Tot i que l'empatia per l'entusiasme d'una altra persona és cosa bona, rebutjar una contribució no és el mateix que rebutjar la persona que hi ha al darrera.
 
@@ -194,7 +194,7 @@ En @progrium [va descobrir això](http://progrium.com/blog/2015/12/04/leadership
 
 ### Deixeu que els altres construeixin les solucions que necessiten
 
-Si un potencial contribuïdor té una opinió diferent sobre el que hauria de fer el vostre projecte, és possible que volgueu encoratjar-los a treballar amb la seva pròpia bifurcació.
+Si un potencial contribuïdor té una opinió diferent sobre el que hauria de fer el vostre projecte, és possible que vulgueu encoratjar-los a treballar amb la seva pròpia bifurcació.
 
 Bifurcar un projecte no ha de ser una cosa dolenta. Ser capaç de copiar i modificar projectes és una de les millors coses sobre el codi obert. Animar els membres de la comunitat a que treballin en la seva pròpia bifurcació pot donar-los la sortida creativa que necessiten, sense entrar en conflicte amb la vostra visió del projecte.
 
