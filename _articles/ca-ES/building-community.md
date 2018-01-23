@@ -42,15 +42,15 @@ Comença amb la teva documentació:
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars3.githubusercontent.com/u/579?v=3&s=400" class="pquote-avatar" alt="avatar">
-  Contributing to open source is easier for some than others. There's a lot of fear of being yelled at for not doing something right or just not fitting in. (...) By giving contributors a place to contribute with very low technical proficiency (documentation, web content markdown, etc) you can greatly reduce those concerns.
+  Contribuir al codi obert és més fàcil per uns que per altres. Hi ha molta por a que et responguin malament per no fer les coses bé o senzillament no encaixar.(...) Oferint als contribuidors un espai on contribuir amb un molt baix nivell de coneixement tècnic (documentació, contingut web en markdown, etc) podem reduir considerablement aquestes preocupacions.
   <p markdown="1" class="pquote-credit">
 — @mikeal, ["Growing a contributor base in modern open source"](https://opensource.com/life/16/5/growing-contributor-base-modern-open-source)
   </p>
 </aside>
 
-The majority of open source contributors are "casual contributors": people who contribute to a project only occasionally. A casual contributor may not have time to get fully up to speed with your project, so your job is to make it easy for them to contribute.
+La majoria de contribuidors de codi obert són "contribuidors informals": gent que contribueix a un projecte només de manera ocasional. Un contribuidor informal pot no tenir temps de contribuir plenament al teu projecte, per tant la teva feina és facilitar-los la contribució.
 
-Encouraging other contributors is an investment in yourself, too. When you empower your biggest fans to run with the work they're excited about, there's less pressure to do everything yourself.
+Encoratjar la contribució d'altres també és invertir en tu mateix. Quan empoderes els teus majors seguidors a treballar en la feina que els motiva, tens menys pressió per fer-ho tot tu.
 
 ### Document everything
 
