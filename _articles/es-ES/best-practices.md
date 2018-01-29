@@ -247,7 +247,7 @@ Si añades tests, asegúrate de explicar cómo funcionan en tu fichero CONTRIBUT
 
 ### Usa herramientas para automatizar tareas básicas de mantenimiento
 
-Las bueno de mantener proyectos populares es que otras mantenededoras probablemente se hayan enfrentando a problemas similares y hayan construido una solución para ello.
+Lo bueno de mantener proyectos populares es que otras mantenededoras probablemente se hayan enfrentando a problemas similares y hayan construido una solución para ello.
 
 Hay una [variedad de herramientas disponible](https://github.com/showcases/tools-for-open-source) que ayudan a automatizar algunos aspectos de tu trabajo de mantenimiento. Algunos ejemplos:
 
@@ -287,7 +287,7 @@ Al igual que en cualquier otro tipo de trabajo, tomar descansos regulares te man
 
 > Manteniendo WP-CLI, descubrí que necesitaba hacerme feliz a mí mismo primero, y establecí unos límites claros a mi implicación. El mejor equilibrio que encontré fue de 2 a 5 horas por semana, como parte de mi horario normal de trabajo. Esto me mantuvo implicado con una pasión, no como si fuera un trabajo. Dado que priorizo las _issues_ en las que trabajo, puedo hacer progresos regulares en lo que creo que es lo más importante.
 
-A veces puede ser difícil tomarse un respiro del trabajo en el código abierto cuando te parece que toodo el mundo te necesita. La gente incluso puede que te haga sentir culpable por dar un paso a un lado.
+A veces puede ser difícil tomarse un respiro del trabajo en el código abierto cuando te parece que todo el mundo te necesita. La gente incluso puede que te haga sentir culpable por dar un paso a un lado.
 
 Intenta encontrar apoyo de tus usuarios y comunidad mientras estás alejado de un proyecto. Si no encuentras el apoyo que necesitas, tómate un respiro de todos modos. Asegúrate de comunicar que no estás disponible, para que la gente no se confunda sobre tu falta de respuesta.
 
@@ -295,4 +295,4 @@ Tomarse descansos significa algo más que únicamente las vacaciones. Si no quie
 
 ## ¡Cuida de tí primero!
 
-Mantener un proyecto popular exige habilidades distintas a las necesarias en las etapas iniciales de crecimiento, pero no es menos satisfactorio. Como mantenedora. tendrás que practicar habilidades de liderazgo e interpersonales en un nivel que poca gente llega a experimentar. Aunque no siempre es fácil de manejar, establecer límites claros y ocuparte solo de aquello con lo que te sientes confortable te ayudará a mantenerte feliz, fresca y productiva.
+Mantener un proyecto popular exige habilidades distintas a las necesarias en las etapas iniciales de crecimiento, pero no es menos satisfactorio. Como mantenedora, tendrás que practicar habilidades de liderazgo e interpersonales en un nivel que poca gente llega a experimentar. Aunque no siempre es fácil de manejar, establecer límites claros y ocuparte solo de aquello con lo que te sientes confortable te ayudará a mantenerte feliz, fresca y productiva.
